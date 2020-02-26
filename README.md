@@ -17,28 +17,42 @@
 
 Primeros pasos
 Antes de empezar a escribir código, debes definir qué deberá hacer el producto en base al conocimiento que puedas obtener de tu usuario. Estas preguntas te pueden ayudar:
+<br>
     • ¿Quiénes son los principales usuarios de producto?
 Niños, jóvenes y adultos, jugadores de la app para dispositivos móviles pokémon go!, que frecuentemente accesan a la página a buscar información sobre las mejores opciones de personajes elegibles para el juego: su apariencia, sus habilidades, debilidades, etc.
+<br>
     • ¿Cuáles son los objetivos de estos usuarios en relación con el producto?
 Enriquecer la experiencia de juego, mediante la consulta de la información que les va a permitir conocer detalles sobre sus personajes favoritos para planear su estrategia de juego.
 Pokémon es un juego muy popular entre la gente de todas las edades y la base de datos pretende entregar al usuario los detalles de cada pokémon disponible para aquellos que se encuentren interesados en las habilidades, aspectos y/o características de los personajes.
+<br>
     • ¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+    <br>
 Los datos que queremos abordar en el proyecto son:
+<br>
 *un nombre de usuario y contraseña.
+<br>
 *opciones de filtro por nombre o número de pokémon para su localización.
+<br>
 *opciones de filtro por tipo y /o debilidades.
+<br>
 *datos generales de cada pokémon (pokédex)
+<br>
 *ordenar ascendentemente y descendientemente por número o letra.
+<br>
 *Al pulsar, información del pokémon seleccionado (descripción y características) e imágenes del personaje.
+<br>
 *Enumeración de las evoluciones anteriores y posteriores. 
+<br>
     • ¿Cuándo utilizan o utilizarían el producto?
+    <br>
 Los potenciales usuarios utilizarían la página cuando estén interesados en conocer a los personajes del juego (ya sea en el modo de principiante/medio/ avanzado) crear estrategias (principiante/medio/avanzado), etc.
 
 ## Prototipo
- <img src= "21DD4BD6-6B35-44D5-B585-E7C0B00CAEDE.jpg">
- <img src= "92A6CCA5-6766-4773-A518-50DFA87E9A8D.jpg">
- <img src= "646838CE-33EA-49F4-9368-30E9001C931D.jpg">
- <img src= "FCB49D72-3DF6-41ED-AE0D-B83F062F6A21.jpg">
+
+ <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/pagina.jpg">
+ <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/paginauno.jpg">
+ <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/paginados.jpg">
+ <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/paginatres.jpg">
 
 
 ### UX
