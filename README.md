@@ -49,10 +49,6 @@ Los potenciales usuarios utilizarían la página cuando estén interesados en co
 
 ## Prototipo
 
- <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/pagina.jpg">
- <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/paginauno.jpg">
- <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/paginados.jpg">
- <img src= "/home/laboratoria145-am/GRIS/CDMX009-Data-Lovers/imagenes/paginatres.jpg">
 
 
 ### UX
