@@ -41,15 +41,22 @@ Los datos que queremos abordar en el proyecto son:
 <br>
 *Al pulsar, información del pokémon seleccionado (descripción y características) e imágenes del personaje.
 <br>
-*Enumeración de las evoluciones anteriores y posteriores. 
+*Enumeración de las evoluciones anteriores y posteriores.
 <br>
     • ¿Cuándo utilizan o utilizarían el producto?
     <br>
 Los potenciales usuarios utilizarían la página cuando estén interesados en conocer a los personajes del juego (ya sea en el modo de principiante/medio/ avanzado) crear estrategias (principiante/medio/avanzado), etc.
 
 ## Prototipo
+<<<<<<< HEAD
 
 
+=======
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginados.jpg)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pagina.jpg)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginatres.jpg)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginauno.jpg)
+>>>>>>> 6bd5653d4d68623846f357f00538cdb16f60216e
 
 ### UX
 
