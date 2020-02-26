@@ -48,9 +48,8 @@ Los datos que queremos abordar en el proyecto son:
 Los potenciales usuarios utilizarían la página cuando estén interesados en conocer a los personajes del juego (ya sea en el modo de principiante/medio/ avanzado) crear estrategias (principiante/medio/avanzado), etc.
 
 ## Prototipo
-
-![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pagina.jpg)
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginados.jpg)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pagina.jpg)
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginatres.jpg)
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginauno.jpg)
 
