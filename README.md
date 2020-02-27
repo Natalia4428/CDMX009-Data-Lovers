@@ -66,6 +66,12 @@ Los potenciales usuarios utilizarían la página cuando estén interesados en co
 <br>
 
 
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/entrada.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex1.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex2.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex3.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex4.png)
+
 
 
 ### UX
