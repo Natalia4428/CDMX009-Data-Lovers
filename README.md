@@ -50,7 +50,6 @@ Los potenciales usuarios utilizarían la página cuando estén interesados en co
 ## Prototipo
 
 
-=======
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginados.jpg)
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pagina.jpg)
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginatres.jpg)
