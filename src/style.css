@@ -13,3 +13,20 @@
     left: 550px;
     top: 8px ;
 }
+
+.searchButton {
+display: flex;
+justify-content: start;
+align-items: flex-start;
+height: 35px;
+width:30px ;
+}
+
+.search {
+display: flex;
+justify-content: space-around;
+background-color: blueviolet;
+width: 350px;
+align-items: center ;
+}
+
