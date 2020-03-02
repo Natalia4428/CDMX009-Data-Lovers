@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .elemento1{
 text-align: center;
 display: flex;
@@ -15,7 +15,7 @@ justify-content:center;
 flex-direction: center;
 }
 
-.centeredPrompt__item + .centeredPrompt__item {
+.centeredPrompt__item + .centeredPrompt_item {
     margin-top: 5px;
   }
 
@@ -178,37 +178,3 @@ font-weight: bold;
 font-family: Verdana,sans-serif;
 text-align: center;
 }
-=======
-.container {
-
-    background-color: #FF0E0E;
-    height: 100px;
-
-}
-
-.logo {
-  
-    height: 130px ;
-    width: 180px;
-    position: relative;
-    left: 550px;
-    top: 8px ;
-}
-
-.searchButton {
-display: flex;
-justify-content: start;
-align-items: flex-start;
-height: 35px;
-width:30px ;
-}
-
-.search {
-display: flex;
-justify-content: space-around;
-background-color: blueviolet;
-width: 350px;
-align-items: center ;
-}
-
->>>>>>> 74e01e8b80ec83f746c8e5b42ae8c9ce4920b37a
