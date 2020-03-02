@@ -237,7 +237,7 @@ como toda la configuración de dependencias:
 
 ```text
 .
-├── pokemon
+├── 
 |  ├── README.md
 ├── potter
 |  ├── README.md
@@ -248,9 +248,9 @@ como toda la configuración de dependencias:
 |  |  ├── lol
 |  |  |  ├── lol.js
 |  |  |  └── lol.json
-|  |  ├── pokemon
-|  |  |  ├── pokemon.js
-|  |  |  └── pokemon.json
+|  |  ├── 
+|  |  |  ├── .js
+|  |  |  └── .json
 |  |  ├── potter
 |  |  |  ├── potter.js
 |  |  |  └── potter.json
