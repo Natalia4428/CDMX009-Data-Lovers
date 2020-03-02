@@ -54,6 +54,24 @@ Los potenciales usuarios utilizarían la página cuando estén interesados en co
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pagina.jpg)
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/paginatres.jpg)
 ![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex.jpg)
+<br>
+
+* Testeando con usuarios decidimos llevar a cabo las siguientes acciones:
+<br>
+- Destacados se convertirá en filtro
+<br>
+- Utilizaremos "modal" para el despliegue de información
+<br>
+- Login falso
+<br>
+
+
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/entrada.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex1.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex2.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex3.png)
+![alt text](https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokedex4.png)
+
 
 
 ### UX
@@ -219,7 +237,7 @@ como toda la configuración de dependencias:
 
 ```text
 .
-├── pokemon
+├── 
 |  ├── README.md
 ├── potter
 |  ├── README.md
@@ -230,9 +248,9 @@ como toda la configuración de dependencias:
 |  |  ├── lol
 |  |  |  ├── lol.js
 |  |  |  └── lol.json
-|  |  ├── pokemon
-|  |  |  ├── pokemon.js
-|  |  |  └── pokemon.json
+|  |  ├── 
+|  |  |  ├── .js
+|  |  |  └── .json
 |  |  ├── potter
 |  |  |  ├── potter.js
 |  |  |  └── potter.json
