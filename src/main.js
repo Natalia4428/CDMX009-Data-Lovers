@@ -15,22 +15,32 @@ function drawPokemons(list) {
         let div = document.createElement('div');
         div.innerHTML = `
         <img src="${poke.img}" />
-        <h1>${poke.name}</h1>
-        <h2>${poke.id}<h2>
-        <p>${poke.type}<p>
-
+        <h3>${poke.name}</h3>
+        <p>${poke.id}</p>
+        
     `;
         container.appendChild(div);
+
+
     });
 }
 const electricType = list.filter((p) => p.type.includes('Electric'));
 console.log(electricType);
 const fireType = list.filter((p) => p.type.includes('Fire'));
 console.log(fireType);
+const pokeNameSearch = list.filter((p) => p.name.includes([" "]));
+console.log(pokeNameSearch);
 
 list.map((p) => console.log(p.name));
 list.map((p) => console.log(p.type));
 
+
+
+
+drawPokemons(electricType);
+drawPokemons(fireType);
+drawPokemons(pokeNameSearch)
+    //document.getElementById("search").addEventListener("onclick", drawPokemons(pokemonTags));
 
 let pokemonTags = [];
 for (let i = 0; i < list.length; i++) {
@@ -38,9 +48,4 @@ for (let i = 0; i < list.length; i++) {
         pokemonTags.push(list[i].name);
     }
 }
-console.log(pokemonTags);
-
-
-drawPokemons(electricType);
-drawPokemons(fireType);
-//document.getElementById("search").addEventListener("onclick", drawPokemons(pokemonTags));
+(pokemonTags);

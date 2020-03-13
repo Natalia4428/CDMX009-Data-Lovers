@@ -46,85 +46,33 @@ header {
 }
 
 .pokeType {
-    color: #000000;
-    font-size: 30px;
-    font-weight: 700;
+    background-color: #FF1212;
+    font-family: 'Baloo 2', cursive;
+    -webkit-text-stroke: 1.5px #52505F;
+    color: transparent;
+    font-size: 40px;
     text-align: center;
 }
 
 .boton_personalizado {
-    text-decoration: none;
-    padding: auto;
+    font-family: 'Baloo 2', cursive;
+    color: #52505F;
     font-size: 12px;
-    font-weight: bold;
-    font-family: Verdana, sans-serif;
     text-align: center;
-    color: #ffffff;
-    background-color: #375DAA;
-    border: 2px solid #ffffff;
-    display: center;
+    border: #5F48FF;
+    border-style: groove;
     cursor: pointer;
+    height: 60px;
     width: 200%;
 }
 
 .boton_personalizado:hover {
-    color: #3B4CCA;
     background-color: #FFCC01;
 }
 
 .element3 {
     display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    justify-content: center;
-    flex-direction: center;
-}
-
-.element4 {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    justify-content: center;
-    flex-direction: center;
-}
-
-.element5 {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    justify-content: center;
-    flex-direction: center;
-}
-
-.element6 {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    justify-content: center;
-    flex-direction: center;
-}
-
-.element7 {
-    display: flex;
-    flex-wrap: no-wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    justify-content: center;
-    flex-direction: center;
-}
-
-.element8 {
-    display: flex;
-    flex-wrap: no-wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
@@ -135,48 +83,8 @@ header {
 #container {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 5px;
-    h1 {
-        width: 100px;
-        border: black 1px solid;
-        margin: 2px;
-    }
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.tarjeta {
-    padding: 2px 16px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: display;
-    justify-content: center;
-    text-align: center;
-    justify-content: center;
-    flex-direction: center;
-    text-decoration: none;
-    padding: auto;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: Verdana, sans-serif;
-    text-align: center;
-}
-
-.elementofuego {
-    padding: 2px 16px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: display;
-    justify-content: center;
-    text-align: center;
-    justify-content: center;
-    flex-direction: center;
-    text-decoration: none;
-    padding: auto;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: Verdana, sans-serif;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    border: #FF1333;
+    font-family: 'Baloo 2', cursive;
 }
