@@ -1,51 +1,54 @@
+import pokemon from './data/pokemon/pokemon.js';
 import data from './data/pokemon/pokemon.js';
 
-
-
 let list = data.pokemon;
-
-
-
-// nodos
-const container = document.querySelector('#container');
+console.log(data.pokemon)
+const container = document.querySelector('.container');
 
 function drawPokemons(list) {
-    // dibujar
-    list.forEach((poke) => {
-        let div = document.createElement('div');
+    container.innerHTML = ""
+    list.forEach((pokemon) => {
+        const div = document.createElement('div');
         div.innerHTML = `
-        <img src="${poke.img}" />
-        <h3>${poke.name}</h3>
-        <p>${poke.id}</p>
-        
-    `;
+        <img src="${pokemon.img}" />
+        <h3>${pokemon.name}</h3>
+        <p>${pokemon.id}</p>`
+            ;
         container.appendChild(div);
-
-
     });
 }
-const electricType = list.filter((p) => p.type.includes('Electric'));
-console.log(electricType);
-const fireType = list.filter((p) => p.type.includes('Fire'));
-console.log(fireType);
-const pokeNameSearch = list.filter((p) => p.name.includes([" "]));
-console.log(pokeNameSearch);
 
-list.map((p) => console.log(p.name));
-list.map((p) => console.log(p.type));
+const formulario = document.querySelector("#mySearch");
 
 
+formulario.addEventListener('keyup', (e) => {
+    const searchString = e.target.value.toLowerCase();
+    const filteredPoke = list.filter((pokemon) => {
+        return (
+            pokemon.name.toLowerCase().includes(searchString)
+        )
+    });
+
+    drawPokemons(filteredPoke)
+
+})
 
 
-drawPokemons(electricType);
-drawPokemons(fireType);
-drawPokemons(pokeNameSearch)
-    //document.getElementById("search").addEventListener("onclick", drawPokemons(pokemonTags));
 
-let pokemonTags = [];
-for (let i = 0; i < list.length; i++) {
-    if (list[i].num === "015") {
-        pokemonTags.push(list[i].name);
-    }
+let typeFilterButtons = document.querySelectorAll('.boton_personalizado');
+typeFilterButtons.forEach((btn) => btn.addEventListener('click', filterBichos));
+
+function filterBichos(event) {
+    let id = event.target.id;
+    let filteredList = filterByType(id);
+    console.log(filteredList);
+    drawPokemons(filteredList)
 }
-(pokemonTags);
+
+function filterByType(type) {
+    return data.pokemon.filter(pokemon => pokemon.type.includes(type))
+}
+
+
+
+
